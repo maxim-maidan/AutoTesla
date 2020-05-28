@@ -1,0 +1,1 @@
+<h1>Auto comlectation: </h1><br> Model: Model 3 <br> Color Outside: undefined <br>Color Inside: undefined <br>Battery: undefined <br>Full Wheel Drive: undefined <br>Sport: undefined<br>Auto Pilot: undefined <br>Skin: undefined <br>Prise: undefined <h1>Client: </h1><br> First Name: undefined <br>Last Name: undefined <br>Phone: undefined <br>Email: undefined

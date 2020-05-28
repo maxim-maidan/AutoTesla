@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+}
+ul {
+    z-index: 999;
+    height: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+ul:hover{background-color: rgba(0, 0, 0, 0.07)
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+a:hover{color: azure}
+li{
+    display: inline-block;
+    width: 100px;
+    padding: 6px;
+}
+li:hover{color: azure}
+.section{
+    width: 100%;
+    height: 685px;
+}
+#fullpage {
+    height: 100vh;
+    overflow: hidden;
+}
+#fullpage section:nth-child(1){
+    background: url("https://www.tesla.com/ns_videos/homepage/main_hero_homepage_desktop.jpg") no-repeat;
+    background-size: 100%;
+}
+#fullpage section:nth-child(2){
+    background-color: rgba(48, 48, 48, 0.13);
+    text-align: center;
+    text-transform: uppercase;
+    color: #3a4040;
+}
+#fullpage section:nth-child(3){
+    background-color: #ffffff;
+}
+#fullpage section { height: 100vh; }
+.text{
+    height: 100px;
+    width: 100%;
+    padding-top: 70px;
+    color: #000000;
+
+}
+.option{
+    margin-top: 40px;
+    position: fixed;
+    height: 517px;
+    width: 630px;
+    right: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.stats{
+    height: 200px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    margin-top: 580px;
+    background-color: rgba(0, 0, 0, 0.07)
+}
+#Con{
+    width: auto;
+    height: 530px;
+    margin-top: 40px;
+    left: 0;
+    position: fixed;
+}

@@ -1,0 +1,244 @@
+body {
+    margin: 0;
+}
+
+ul {
+    z-index: 999;
+    height: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+
+ul:hover {
+    background-color: rgba(0, 0, 0, 0.05)
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    color: azure
+}
+
+li {
+    display: inline-block;
+    width: 100px;
+    padding: 6px;
+}
+
+li:hover {
+    color: azure
+}
+
+.section {
+    width: 100%;
+    height: 685px;
+}
+
+#fullpage {
+    height: 100vh;
+    overflow: hidden;
+}
+
+#fullpage section:nth-child(1) {
+}
+
+#fullpage section:nth-child(2) {
+    text-align: center;
+    text-transform: uppercase;
+    color: azure;
+}
+
+#fullpage section:nth-child(3) {
+    background-color: #ffffff;
+
+}
+
+#fullpage section {
+    height: 100vh;
+}
+
+#CarPhoto {
+    margin-top: 40px;
+    left: 0;
+    position: fixed;
+}
+
+.option {
+    margin-top: 40px;
+    position: fixed;
+    height: 627px;
+    width: 440px;
+    right: 0;
+    padding: 20px;
+}
+
+.stats {
+    height: 217px;
+    width: 927px;
+    position: fixed;
+    left: 0;
+    margin-top: 450px;
+    display: inline;
+    float: left;
+}
+.indicator{
+    width: 33%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    font-family: "Droid Serif";
+    font-style: normal;
+}
+#IntPhoto {
+    margin-top: 40px;
+    right: 0;
+    position: fixed;
+}
+
+.optionInt {
+    margin-top: 40px;
+    position: fixed;
+    height: 627px;
+    width: 440px;
+    padding-left: 10px;
+    color: black;
+    text-align: start;
+}
+
+.col {
+    margin-left: 150px;
+}
+
+.statsInt {
+    height: 217px;
+    width: 927px;
+    position: fixed;
+    right: 0;
+    margin-top: 540px;
+}
+
+
+
+.container {
+
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 40px;
+    width: 40px;
+    background-color: #eee;
+    border-radius: 50%;
+
+}
+
+#Black {
+    background-color: black;
+}
+
+#Blue {
+    background-color: darkblue;
+    margin-left: 150px
+}
+
+#White {
+    background-color: white;
+    border: 1px solid black;
+    margin-left: 50px
+}
+
+#Gray {
+    background-color: #3a4040;
+    margin-left: 100px
+}
+
+#Red {
+    background-color: brown;
+    margin-left: 200px
+}
+
+#WhiteInt {
+    background-color: #ffffff;
+    border: 1px solid black;
+    margin-left: 50px
+}
+
+#BlackInt {
+    background-color: black;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.conf {
+    margin-top: 80px;
+}
+
+.tabl {
+    width: 400px;
+}
+
+.info {
+    height: 40%;
+    margin-left: 35%;
+    margin-top: 200px;
+    padding-left: 5%;
+}
+.inp{
+    font-weight: bold;
+    width: 30%;
+    height: 20px;
+    background: rgba(0, 0, 0, 0.05);
+
+}
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+
+    text-decoration: none;
+    color: initial;
+    border: 0;
+    font-size: 30px;
+    text-transform: uppercase;
+    width: 250px;
+    height: 100px;
+    position: fixed;
+    text-align: center;
+
+}
